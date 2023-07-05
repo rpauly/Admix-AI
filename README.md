@@ -15,4 +15,6 @@ To set up the Python environment for Admix-AI:
   conda activate admixAI
   These commands generate an initial folder structure without a models folder.
 
-Downloading Model Weights
+# Downloading Model Weights
+# Data Setup
+Admix-AI accepts the genotype data in a CSV file format
