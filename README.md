@@ -11,8 +11,8 @@ To set up the Python environment for Admix-AI:
 2. Clone this repository.
     git clone https://github.com/rpauly/Admix-AI
 3. Create the environment as shown below.
-  conda env create -f environment.yml -n admixAI
-  conda activate admixAI
+      conda env create -f environment.yml -n admixAI
+      conda activate admixAI
   These commands generate an initial folder structure without a models folder.
 
 # Downloading Model Weights
