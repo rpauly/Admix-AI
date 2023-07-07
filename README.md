@@ -21,19 +21,16 @@ These commands generate an initial folder structure without a models folder.
 
 # Data structure
  ```  
-├── example_data/                 # folder containing example input files
-├── example_results/              # folder containing example output files
-├── gene_lists/                   # folder containing lists for 19K and 60K genes
-├── labels/                       # folder containing lists for 17 and 32 tumor types
+├── example/                 # folder containing example input files
+|   ├── data                      # folder with example data
+|   ├── results                   # folder with example results
+├── AIM_list/                     # folder containing lists of Ancestry Informative Markers (AIMs)
 ├── models/                       # folder containing model weights
-│   ├── cnn_17_pc_weights.h5      # model weights for 17 tumor types and 19K protein coding genes
-│   ├── cnn_17_weights.h5         # model weights for 17 tumor types and 60K genes
-│   ├── cnn_32_pc_weights.h5      # model weights for 32 tumor types and 19K protein coding genes
-│   ├── cnn_32_weights.h5         # model weights for 32 tumor types and 60K genes
+│   ├── cnn_AA_CAU.h5             # model weights for AA and CAU
+│   ├── cnn_AA_AS.h5              # model weights for AA and AS
+│   ├── cnn_CAU_AS.h5             # model weights for CAU and AS
+│   ├── cnn_AA_CAU_AS.h5          # model weights for AA, CAU and AS
 ├── utils                         # Python helper scripts
-├── environment.yml               # Python and libraries to run TULIP
-├── modac_file_download.py        # Python script to download model weights from MoDaC
-├── tulip.py                      # Python script of TULIP
 └── ...
 ```
 
