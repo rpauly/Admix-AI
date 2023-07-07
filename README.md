@@ -25,7 +25,7 @@ These commands generate an initial folder structure without a models folder.
 |   ├── data                      # folder with example data
 |   ├── results                   # folder with example results
 ├── AIM_list/                     # folder containing lists of Ancestry Informative Markers (AIMs)
-├── models/                       # folder containing model weights
+├── CNN_models/                       # folder containing model weights
 │   ├── cnn_AA_CAU.h5             # model weights for AA and CAU
 │   ├── cnn_AA_AS.h5              # model weights for AA and AS
 │   ├── cnn_CAU_AS.h5             # model weights for CAU and AS
