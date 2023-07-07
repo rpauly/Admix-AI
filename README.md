@@ -19,8 +19,27 @@ To set up the Python environment for Admix-AI:
 ```
 These commands generate an initial folder structure without a models folder.
 
-# Downloading Model Weights
-Download the model weights from the folder 
+# Data structure
+ ```  
+├── example_data/                 # folder containing example input files
+├── example_results/              # folder containing example output files
+├── gene_lists/                   # folder containing lists for 19K and 60K genes
+├── labels/                       # folder containing lists for 17 and 32 tumor types
+├── models/                       # folder containing model weights
+│   ├── cnn_17_pc_weights.h5      # model weights for 17 tumor types and 19K protein coding genes
+│   ├── cnn_17_weights.h5         # model weights for 17 tumor types and 60K genes
+│   ├── cnn_32_pc_weights.h5      # model weights for 32 tumor types and 19K protein coding genes
+│   ├── cnn_32_weights.h5         # model weights for 32 tumor types and 60K genes
+├── utils                         # Python helper scripts
+├── environment.yml               # Python and libraries to run TULIP
+├── modac_file_download.py        # Python script to download model weights from MoDaC
+├── tulip.py                      # Python script of TULIP
+└── ...
+```
+
+
+# Downloading Models
+Download the model weights from the folder CNN_Models.
 
 # Data Setup
 Admix-AI accepts the genotype data in a CSV file format
