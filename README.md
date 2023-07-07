@@ -47,5 +47,5 @@ Admix-AI accepts the genotype data in a CSV file format
 | rs_id2 | 1 |2|
 
 # Acknowledgments
-Clemson University is acknowledged for general computing on the Palmetto cluster. We thank the producers of 1000 Genomes and GTEx data.![image](https://github.com/rpauly/Admix-AI/assets/1125723/60c5dd6d-2eb6-4296-813c-d70bd4fe83a0)
+Clemson University is acknowledged for general computing on the Palmetto cluster. We thank the producers of 1000 Genomes and GTEx data.
 
