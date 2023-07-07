@@ -15,8 +15,8 @@ To set up the Python environment for Admix-AI:
    ```
 4. Create the environment as shown below.
 ```
-   conda env create -f environment.yml -n admixAI
-   conda activate admixAI
+   conda env create -f environment.yml -n AdmixAI
+   conda activate AdmixAI
 ```
 These commands generate an initial folder structure without a models folder.
 
