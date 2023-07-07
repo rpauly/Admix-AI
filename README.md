@@ -41,7 +41,7 @@ Download the model weights from the folder CNN_Models.
 
 # Data Setup
 Admix-AI accepts the genotype data in a CSV file format
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| rs_id | Sample1 | Sample2 |
+| --- | --- | --- |
+| rsid1 | 0 |1|
+| rsid2 | 1 |2|
