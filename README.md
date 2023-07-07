@@ -2,6 +2,8 @@
 Detecting genetic admixture using a Convolution Neurall Network (CNN) model.
 # Description
 Admix-AI that uses a 1-D (Dimensional) CNN to understand and classify admixed genetic backgrounds using DNA-marker based genetic background labels. Admix-AI can be used to discover admixed proportions in samples and ultimately aid personalized genomic medicine by identifying specific biomarker systems.
+![AdmixAI_Overview]
+(https://github.com/rpauly/Admix-AI/blob/main/AdmixAI_Overview.png)
 
 # Software Setup
 To set up the Python environment for Admix-AI:
