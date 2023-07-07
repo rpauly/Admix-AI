@@ -18,3 +18,14 @@ To set up the Python environment for Admix-AI:
 # Downloading Model Weights
 # Data Setup
 Admix-AI accepts the genotype data in a CSV file format
+To set up the Python environment for TULIP:
+
+Install conda package manager.
+
+Clone this repository.
+
+git clone https://github.com/CBIIT/TULIP.git
+Create the environment as shown below.
+
+conda env create -f environment.yml -n tulip
+conda activate tulip
