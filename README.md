@@ -41,9 +41,7 @@ Download the model weights from the folder CNN_Models.
 
 # Data Setup
 Admix-AI accepts the genotype data in a CSV file format
-Context	Relative Link
-In a .md file on the same branch	/assets/images/electrocat.png
-In a .md file on another branch	/../main/assets/images/electrocat.png
-In issues, pull requests and comments of the repository	../blob/main/assets/images/electrocat.png?raw=true
-In a .md file in another repository	/../../../../github/docs/blob/main/assets/images/electrocat.png
-In issues, pull requests and comments of another repository	../../../github/docs/blob/main/assets/images/electrocat.png?raw=true
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
