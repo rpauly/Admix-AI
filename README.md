@@ -9,7 +9,7 @@ To set up the Python environment for Admix-AI:
 1. Install conda package manager.
 
 2. Clone this repository.
-    git clone https://github.com/rpauly/Admix-AI
+   git clone https://github.com/rpauly/Admix-AI
 3. Create the environment as shown below.
    conda env create -f environment.yml -n admixAI
    conda activate admixAI
