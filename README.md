@@ -35,16 +35,22 @@ These commands generate an initial folder structure without a models folder.
 └── ...
 ```
 
-
 # Downloading Models
-Download the model weights from the folder CNN_Models.
+Download the model weights from the folder CNN_Models as indicated above in the data structure.
 
 # Data Setup
-Admix-AI accepts the genotype data in a CSV file format
+Admix-AI requires two inputs.
+1. The genotype data in a CSV file format
 | rs_id | Sample1 | Sample2 |
 | --- | --- | --- |
 | rs_id1 | 0 |1|
 | rs_id2 | 1 |2|
+ Please note that the rsIDs are the list 213 Ancestry Informative Markers(AIMs) located in the folder AIM_list. Make sure to select those AIMs in the exact order listed. 
+
+2. List of input samples with headers.
+
+# Running Admix-AI
+Please use the python notebook listed in the folder utilis to see the step-by-step running of admix-AI.
 
 # Acknowledgments
 Clemson University is acknowledged for general computing on the Palmetto cluster. We thank the producers of 1000 Genomes and GTEx data.
