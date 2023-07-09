@@ -31,7 +31,7 @@ These commands generate an initial folder structure without a models folder.
 │   ├── RCNN_AA_AS.model.h5              # model weights for AA and AS
 │   ├── RCNN_CAU_AS.model.h5             # model weights for CAU and AS
 │   ├── RCNN_AA_CAU_AS.model.h5          # model weights for AA, CAU and AS
-├── utils                         # Python helper scripts
+├── utils                         # Python helper scripts and jupyter notebook
 └── ...
 ```
 
