@@ -27,10 +27,10 @@ These commands generate an initial folder structure without a models folder.
 |   ├── results                   # folder with example results
 ├── AIM_list/                     # folder containing lists of Ancestry Informative Markers (AIMs)
 ├── CNN_Models/                       # folder containing model weights
-│   ├── cnn_AA_CAU.h5             # model weights for AA and CAU
-│   ├── cnn_AA_AS.h5              # model weights for AA and AS
-│   ├── cnn_CAU_AS.h5             # model weights for CAU and AS
-│   ├── cnn_AA_CAU_AS.h5          # model weights for AA, CAU and AS
+│   ├── RCNN_AA_CAU.model.h5             # model weights for AA and CAU
+│   ├── RCNN_AA_AS.model.h5              # model weights for AA and AS
+│   ├── RCNN_CAU_AS.model.h5             # model weights for CAU and AS
+│   ├── RCNN_AA_CAU_AS.model.h5          # model weights for AA, CAU and AS
 ├── utils                         # Python helper scripts
 └── ...
 ```
