@@ -46,6 +46,12 @@ Admix-AI requires two inputs.
 | rs_id1 | 0 |1|
 | rs_id2 | 1 |2|
  Please note that the rsIDs are the list 213 Ancestry Informative Markers(AIMs) located in the folder AIM_list. Make sure to select those AIMs in the exact order listed. 
+The genotypes were integer values ranging from 0 to 2, across all groups, homozygous SNPs were assigned a value of ”0,” heterozygous SNPs were given a value of ”1,” and homozygous alleles assigned the value of ”2". We then used Javarkit to convert the vcf to a genotype matrix using the following command.
+```
+java -jar <path_to_kit>/jvarkit/dist/bioalcidae.jar -F VCF -f <path_to_js>/filter.js <path_to_file>/input.genotypes.vcf >matrix.tab
+
+```
+
 
 2. List of input samples with headers.
 
